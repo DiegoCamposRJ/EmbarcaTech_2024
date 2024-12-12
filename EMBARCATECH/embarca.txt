@@ -2,3 +2,4 @@ Adicione um novo arquivo no repositório
 Crie um novo arquivo na pasta, por exemplo, embarca.txt.
 Em seguida, use o comando git add para adicionar esse
 arquivo ao ambiente de preparação (staging environment).
+Criando um Merge Request
