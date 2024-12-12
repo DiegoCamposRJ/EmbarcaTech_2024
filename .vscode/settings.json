@@ -1,0 +1,11 @@
+{
+    "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+    "cSpell.words": [
+        "mundo"
+    ],
+    "cmake.cpackPath": "cmake",
+    "cmake.configureEnvironment": {
+        "PICO_SDK_PATH": "C:\\Program Files\\Raspberry Pi\\Pico SDK v1.5.1"
+    },
+    "cmake.generator": "NMake Makefiles"
+}

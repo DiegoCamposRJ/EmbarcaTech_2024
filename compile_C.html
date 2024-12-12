@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como colocar UTF-8 para funcionar  </title>
+</head>
+<body>
+    A IDE que estou utilizando e o visual code
+    Ótimo! O Visual Studio Code é uma excelente escolha. Vamos garantir que ele esteja configurado corretamente para lidar com caracteres UTF-8.
+    
+    Configuração do Visual Studio Code:
+    
+    Abra o Visual Studio Code.
+    
+    Vá para File > Preferences > Settings (ou use o atalho Ctrl + ,).
+    
+    No campo de busca, digite files.encoding.
+    
+    Certifique-se de que a configuração files.encoding está definida como utf8.
+    
+    Configuração do Terminal Integrado:
+    
+    No Visual Studio Code, abra o terminal integrado (Ctrl +).
+    
+    Certifique-se de que o terminal está configurado para UTF-8. No Windows, você pode usar o comando chcp 65001 para definir a página de código para UTF-8. No Linux, use export LC_ALL=pt_BR.UTF-8.
+    
+    Compilação do Código:
+    
+    Certifique-se de que o GCC está configurado para suportar UTF-8. Você pode compilar o código com a opção -finput-charset=UTF-8  
+</body>
+</html>
