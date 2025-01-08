@@ -1,7 +1,7 @@
 // Exercício da Aula Síncrona 07/01/2025 Blink RGB_Led no BitDogLab
 #include <stdio.h>
 #include "pico/stdlib.h"
-#include "hardware/gpio.h"
+//#include "hardware/gpio.h"
 
 #define LED_R 12
 #define LED_G 11
@@ -13,7 +13,7 @@ void led_rgb_put(bool r, bool g, bool b){
     gpio_put(LED_B, b);
 }
 int main(){
-    stdio.init_all();
+    stdio_init_all();
 
     gpio_init(LED_R);
     gpio_init(LED_G);
